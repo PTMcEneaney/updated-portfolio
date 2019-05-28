@@ -75,7 +75,7 @@ nav {
 }
 .skillsIcons {
     font-size: 30px;
-    color: #DA4B48;
+    color: #3C3C48;
     margin: 0px 20px 0px 20px;
 
 }
@@ -92,7 +92,7 @@ nav {
 
 #navName {
     font-family: 'Rokkitt', serif;
-    font-size: 30px;  
+    font-size: 25px;  
     font-weight: 500;
 }
 .nav-link {
@@ -112,6 +112,18 @@ nav {
 .card-body {
     font-family: 'Fira Sans Condensed', sans-serif;
 
+}
+.card-title h5 {
+    font-size: 25px;
+    padding-left: 2px;
+    margin-top: 6px;
+}
+#submit {
+    background-color: #F0B333;
+    border: none;
+}
+#submit:hover {
+    background-color: rgb(216, 161, 43);
 }
 /* 
 font-family: 'Rokkitt', serif;
