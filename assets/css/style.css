@@ -10,6 +10,8 @@ body {
 }
 .lead {
     color: #3C3C48;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
 }
 nav {
     background-color: #3C3C48;
@@ -22,6 +24,8 @@ nav {
 .btn-link {
     /* background-color: #8D6C79; */
     color: #DA4B48;
+    margin: 0;
+    padding: 0;
 }
 .collapseHead:hover {
     color: #F0B333;
@@ -68,7 +72,11 @@ nav {
 .contactIcons {
     font-size: 30px;
     color: #DA4B48;
-
+}
+.skillsIcons {
+    font-size: 30px;
+    color: #DA4B48;
+    margin: 0px 20px 0px 20px;
 
 }
 .footerIcons {
@@ -99,6 +107,10 @@ nav {
         font-family: 'Rokkitt', serif;
     font-size: 30px;  
     font-weight: 500;
+
+}
+.card-body {
+    font-family: 'Fira Sans Condensed', sans-serif;
 
 }
 /* 
