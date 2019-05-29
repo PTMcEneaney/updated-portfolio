@@ -4,9 +4,11 @@ body {
 .jumbotron {
     background-color: #F9F9F7;
 }
-.display-4 {
+.mceneaney {
+    font-family: 'Fira Sans Condensed', sans-serif;
     color: #F0B333;
     font-weight: 400;
+    font-size: 50px;
 }
 .lead {
     color: #3C3C48;
@@ -99,12 +101,8 @@ nav {
     font-family: 'Fira Sans Condensed', sans-serif;
 
 }
-.mceneaney {
-    font-family: 'Fira Sans Condensed', sans-serif;
-
-}
 .collapseHead {
-        font-family: 'Rokkitt', serif;
+    font-family: 'Rokkitt', serif;
     font-size: 30px;  
     font-weight: 500;
 
@@ -125,8 +123,23 @@ nav {
 #submit:hover {
     background-color: rgb(216, 161, 43);
 }
-/* 
-font-family: 'Rokkitt', serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Fira Sans Condensed', sans-serif;
-*/
+.bigLogo {
+    margin: 0px auto 0px auto;
+}
+.footerText {
+    color: #F9F9F7;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+#resume {
+    background-color: #DA4B48;
+    border: none;
+    color: #F9F9F7;
+}
+.fa-volume-up {
+    font-size: 30px;
+}
+.fa-volume-up:hover {
+    color: #DA4B48;
+
+}

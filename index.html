@@ -19,6 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Fira+Sans|Fira+Sans+Condensed|Lato|M+PLUS+1p|Rokkitt|Source+Sans+Pro|Voces&display=swap"
         rel="stylesheet">
+        <audio id="sound1" src="assets/images/AudioMcEneaney.wav" preload="auto"></audio>
 </head>
 
 <body>
@@ -39,9 +40,9 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#collapseOne" data-toggle="collapse" data-target="#collapseOne"
-                        aria-expanded="false" aria-controls="collapseOne">About<span class="sr-only">(current)</span></a>
+                        aria-expanded="false" aria-controls="collapseOne">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#collapseThree" data-toggle="collapse" data-target="#collapseThree"
@@ -63,14 +64,18 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
 
-            <h1 class="display-4 mceneaney">/ˈmækɪnɛ:ni/</h1><br>
-            <p class="lead">Yep... that's a mouthfull. Feel free to call me Page.</p>
+            <h1 class="display-4 mceneaney">/ˈmækɪnɛ:ni/&nbsp;<i class="fas fa-volume-up" onclick="document.getElementById('sound1').play();"></i>
+            </h1><br>
+            <p class="lead">Yep... that's a lot. Feel free to call me Page.</p>
             <p class="lead">Now that we're on a first-name basis, let me share a bit about myself.</p>
         </div>
     </div>
 
     <div class="container" id="bodyContent">
         <div id="accordion">
+            <div class="text-center">
+            <!-- <img src="assets/images/logoWhite.png" alt="large logo" class="bigLogo" width="200px"> -->
+        </div>
             <h2 id="headingAll" id="aboutMe">&nbsp;ABOUT ME:</h2>
             <div class="card mb-2">
 
@@ -86,7 +91,7 @@
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                             <img class="float-left profPic" src="assets/images/profilePicture.jpg" alt="Profile Picture"
-                            width="35%">
+                            width="230px">
             
                         I am a web developer with an eye for design and impeccable attention to detail. After years
                         of working in positions that were <em>good enough for now</em>, I finally found my passion in
@@ -329,6 +334,8 @@
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                            <a href="assets/images/ResumePageMcEneaney.pdf" download class="btn btn-primary float-right" id="resume" target="_blank">Resume</a>
+
                         </form>
 
                     </div>
@@ -344,10 +351,8 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logoWhite.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                <a href="mailto:pagemceneaney@gmail.com" target="_blank"><i
-                        class="fas fa-envelope-square footerIcons"></i></a>
-                <a href="https://www.instagram.com/pagemceneaney/" target="_blank"><i
-                        class="fab fa-instagram footerIcons"></i></a>
+                <a><h4 class="footerText">pagemceneaney@gmail.com</h4></a>
+                <a><h4 class="footerText">206-939-0604</h4></a>
                 <a href="https://www.linkedin.com/in/page-mceneaney-41538480/" target="_blank"><i
                         class="fab fa-linkedin footerIcons"></i></a>
                 <a href="https://github.com/PTMcEneaney" target="_blank"><i class="fab fa-github footerIcons"></i></a>
@@ -356,6 +361,7 @@
             </a>
         </div>
     </nav>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
