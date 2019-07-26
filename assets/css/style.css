@@ -8,7 +8,13 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #F0B333;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 2.3rem;
+}
+.mceneaney2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #A09CAB;
+    font-weight: 400;
+    font-size: 2.3rem;
 }
 .lead {
     color: #3C3C48;
@@ -82,7 +88,7 @@ nav {
 
 }
 .footerIcons {
-    font-size: 30px;
+    font-size: 1rem;
     color: #F9F9F7; 
 
 }
@@ -129,7 +135,7 @@ nav {
 .footerText {
     color: #F9F9F7;
     font-family: 'Fira Sans Condensed', sans-serif;
-
+    font-size: 1rem;
 }
 #resume {
     background-color: #DA4B48;
